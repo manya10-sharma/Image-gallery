@@ -55,7 +55,7 @@ cd image-gallery
 
 # 3️⃣ Open the project in your browser
 # You can double-click index.html or use a Live Server in VS Code
-
+```
 ---
 
-### 🚀 Thank You for Checking Out the Project!
+#🚀 Thank You for Checking Out the Project!

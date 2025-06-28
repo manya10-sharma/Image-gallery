@@ -2,13 +2,10 @@
 
 A simple image gallery built using **HTML**, **CSS**, and **JavaScript**. This project allows users to view a collection of images in a clean, grid-style layout.
 
----
 
 ## 🔍 Preview
 
 🚀 **Live Demo:** [View Project on GitHub Pages](https://manya10-sharma.github.io/Image-gallery/)  
-
----
 
 ## 🌟 Features
 
@@ -17,7 +14,6 @@ A simple image gallery built using **HTML**, **CSS**, and **JavaScript**. This p
 ✅ Enlarge image view  
 ✅ Lightweight and fast loading
 
----
 
 ## 🧰 Tech Stack
 
@@ -27,7 +23,6 @@ A simple image gallery built using **HTML**, **CSS**, and **JavaScript**. This p
 | 🎨 CSS3     | Styling                    |
 | ⚙️ JavaScript | Interactivity            |
 
----
 
 ## 📁 Project Structure
 
@@ -39,8 +34,6 @@ A simple image gallery built using **HTML**, **CSS**, and **JavaScript**. This p
 ├── img1.jpg
 ├── img2.jpg
 └── ...
-
----
 
 ## 🧑‍💻 How to Run Locally
 
@@ -56,6 +49,5 @@ cd image-gallery
 # 3️⃣ Open the project in your browser
 # You can double-click index.html or use a Live Server in VS Code
 ```
----
 
 #🚀 Thank You for Checking Out the Project!

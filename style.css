@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+
+body {
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSERMSEhMVFRUXGBgVFRgXFxcVFRUYFRcXFhcVGBUYHSggGBolHRUVITEiJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAQFy0dHR0rLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLSstLS0tLS0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIDBAf/xAArEAEBAQABAgQDCAMAAAAAAAAAARECAyEEEjHwUZHBIkFhcYGh0fETseH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAHREBAQEAAgIDAAAAAAAAAAAAAAERAjEhQRITYf/aAAwDAQACEQMRAD8A+3iOPSnLzd/T8/es29K7kCKEpaABokoLaDPU5zjNp0NWicOW94oAWAAWgEABnnyyb6X5ufh+t5t/bt9fR15Te1TjJ3z9WbLq+moWg0gUIAJ6woKUsALQADDEsBQIBKAASFKCen+ltDQJDA0C0CAVz63S80xtalm9jPT4ZMjUoLJgUCwAoQDAT8wWQAApIABKAWgAUACQwAGOrLZ2uVvAs0c/D8LOMldKEqSZMABQAsAAkA0MTkC0tAAwIAYmfDsoFpQACwAlAAwLQAAAlAAoAGgAGgEAtAkC0BjleX3SfO/wNiYGAWKBoUCgYCWbu+hikgFAgGlCgEAAgAYGkoBQAKAAAFABFCQAT1UCgABCwATzT4houAUADAKBKBIQlAAsAHPr8NmS46ESzfAx0uNky927QXMCgSABgABIBQAIBQMABMUACwIABgDHV42ztcbhhZo8nHwfxzf1+lHrHP6uLXyphKDoyJymyqSA5eH6d4zvddS0xJMmFALFAAAKAGEoAFAAkLAANAIAFgEoM/5Jub3/AL/itSOHHw/2vNu+/wCnes8d9rcMNBpAACAYABQAABPMtgGFoABoAEoBgEgEoFgGgAQAEXDAAIWgUAAAACQAwoCS6oABYABIAAA4/wCH7fmdgxJJDQomfH91FQ+9QAoAWkAKGlAhQACmgEAAJAAAALACUhpQKWgBYGgGGEoASGAAAGJfipoFCwsBFAANACENACwoEJCgEAoFCwoBA0CUCgEpCUAoAWFNLQKFoAULQY6vUnGLxuze7HW6E5evv9G+HDJjPnfxfGNANIaAAAAkWUAAkAoSmgUCgAAQlDQAJALQefp9e3ll7e+31S8pDHooEqhAQFwoSgAnrmX/AKCgAYBACAAABgEgGAnL09/UFI8/h7y2+b3970JxuzSzCQLCqAFoAAAAGgABIAQw0ACQBJ8VlT8FADCQDQKBgFgEgEAkTVlAAALDEAUAAACQAAAC0lBPYCCi2AAAAAAYAAWIApYgCpgAqX5/gAOfhur5p3dJQY4XZF5dqWINooAP/9k=");
+    /* background-size: cover; */
+}
+
+h1{
+    font-family:cursive;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 4px 10px 25px rgb(124, 21, 156);
+    color: rgb(3, 43, 56);
+}
+.gallery{
+     width: 1000px;
+     display: flex;
+     overflow-x: scroll;
+}
+
+.gall-div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+    height:240px;
+}
+.gall-div img{
+    width: 100%;
+    filter: blur(2px);
+    transition:transform 0.5s;
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.gall-wrap{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    margin-top: 100px;
+}
+
+.shift{
+  height: 50px;
+  cursor: pointer;
+  margin:20px;
+  
+}
+
+.gall-div img:hover{
+    filter: blur(0);
+    transform: scale(1.2);
+}
